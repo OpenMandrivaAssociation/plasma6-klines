@@ -4,7 +4,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 70 ] && echo -n un; echo -n stable)
 
 Name:		plasma6-klines
-Version:	24.05.2
+Version:	24.08.0
 Release:	%{?git:0.%{git}.}1
 Summary:	Place 6 equal pieces together, but wait, there are 3 new ones
 Group:		Graphical desktop/KDE
@@ -57,6 +57,7 @@ new balls keep arriving by three after each move, filling up the game board.
 %{_datadir}/klines/themes/*
 %{_datadir}/metainfo/org.kde.klines.appdata.xml
 %{_datadir}/qlogging-categories6/klines.categories
+%{_datadir}/qlogging-categories6/klines.renamecategories
 
 #------------------------------------------------------------------------------
 
