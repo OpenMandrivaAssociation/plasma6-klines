@@ -9,7 +9,7 @@ Release:	%{?git:0.%{git}.}1
 Summary:	Place 6 equal pieces together, but wait, there are 3 new ones
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
-URL:		http://games.kde.org/game.php?game=klines
+URL:		https://games.kde.org/game.php?game=klines
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/games/klines/-/archive/%{gitbranch}/klines-%{gitbranchd}.tar.bz2#/klines-%{git}.tar.bz2
 %else
